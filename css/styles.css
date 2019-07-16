@@ -1,0 +1,55 @@
+/* ------------------------------- */
+/* ------ Element Selectors ------ */
+/* ------------------------------- */
+
+header {
+    padding: 20px 0;
+}
+
+/* ------------------------------- */
+/* -------- ID Selectors --------- */
+/* ------------------------------- */
+
+#userSearch {
+    width: 50%;
+    border: 0;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+/* ------------------------------- */
+/* ------- Class Selectors ------- */
+/* ------------------------------- */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.thumbnail {
+    margin: 20px;
+}
+
+/* ------------------------------- */
+/* -------- Media Queries -------- */
+/* ------------------------------- */
+
+/* Tablet Display */
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Computer Display */
+@media (min-width: 1024px) {
+    .container {
+        width: 1024px;
+    }
+}
